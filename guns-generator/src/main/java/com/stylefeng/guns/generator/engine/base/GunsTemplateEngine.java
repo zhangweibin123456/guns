@@ -1,7 +1,7 @@
 package com.stylefeng.guns.generator.engine.base;
 
 import com.stylefeng.guns.core.util.ToolUtil;
-import com.sun.javafx.PlatformUtil;
+//import com.sun.javafx.PlatformUtil;
 import org.beetl.core.Configuration;
 import org.beetl.core.GroupTemplate;
 import org.beetl.core.Template;
@@ -56,7 +56,7 @@ public abstract class GunsTemplateEngine extends AbstractTemplateEngine {
     protected void generateFile(String template, String filePath) {
         Template pageTemplate = groupTemplate.getTemplate(template);
         configTemplate(pageTemplate);
-        if (PlatformUtil.isWindows()) {
+        if (true) {//PlatformUtil.isWindows()
             filePath = filePath.replaceAll("/+|\\\\+", "\\\\");
         } else {
             filePath = filePath.replaceAll("/+|\\\\+", "/");
