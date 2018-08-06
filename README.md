@@ -6,7 +6,7 @@
 
 
 # html
-<table border="1px" align="center" bordercolor="black" width="80%" height="100px">
+<table border="1px" align="center"  width="80%" height="100px">
     <tr align="center">
         <td>字段</td>
         <td>类型</td>
