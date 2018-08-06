@@ -2,9 +2,9 @@
 ## 接口列表V3：
 | 序号        | 接口名称    |  url  |  接口说明  |
 | --------   | -----:  | :----: | :----: |
-|   1   | getSiteKeysByCustomerId   |   /passengerFlowData/V3/getSiteKeysByCustomerId    | 通过customerId调用接口获取场所基本信息 |
-|   2   | delete      |   /deleteUser/Id    |删除用户|
-|   3   | addUser      |   /add    |增加用户 |
+|  1  | getSiteKeysByCustomerId | /passengerFlowData/V3/getSiteKeysByCustomerId |通过customerId调用接口获取场所基本信息|
+|  2  | delete      |   /deleteUser/Id    |删除用户|
+|  3  | addUser      |   /add    |增加用户 |
 
 
 # html
